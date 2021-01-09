@@ -40,9 +40,9 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/CryptoNoteBook
-    username: CryptoNoteBook
-    password:
+    url: jdbc:postgresql://localhost:5432/cryptonotebook
+    username: bj
+    password: bj
     hikari:
       poolName: Hikari
       auto-commit: false
